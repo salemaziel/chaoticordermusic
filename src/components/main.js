@@ -12,8 +12,8 @@ const Main = () => (
         <div id="container08" className="container default full screen">
           <div className="inner">
             <h1 id="text03" className="style3">Chaotic Order</h1>
-            <p id="text04" className="style4">Morbi semper nisl et dictum cursus. In platea dictumst aliquam blandit.</p>
-            <hr id="divider06" />
+            <p id="text04" className="style4">New Album FEED THE PEOPLE Out Now!</p>
+            {/**<hr id="divider06" />**/}
           </div>
         </div>
         <div id="container01" data-scroll-id="one" data-scroll-behavior="center" className="container columns full screen">
@@ -143,7 +143,7 @@ const Main = () => (
                 </a>
               </li>
             </ul>
-            <p id="text12" className="style5">© Untitled Corp. All rights reserved.</p>
+            <p id="text12" className="style5">© Chaotic Order Music. All rights reserved.</p>
           </div>
         </div>
       </section>
