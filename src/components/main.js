@@ -24,7 +24,7 @@ const Main = () => (
               <h2 id="text01" className="style1">Sed Aliquam</h2>
               <hr id="divider03" />
               <p id="text02" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
-              <ul id="buttons03" className="style1 buttons">
+              {/**<ul id="buttons03" className="style1 buttons">
                 <li>
                   <a href="#two" className="button n01">
                     <svg>
@@ -33,7 +33,7 @@ const Main = () => (
                     <span className="label">Next</span>
                   </a>
                 </li>
-              </ul>
+              </ul>**/}
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Main = () => (
               <h2 id="text05" className="style1">Magna Feugiat</h2>
               <hr id="divider02" />
               <p id="text06" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
-              <ul id="buttons04" className="style1 buttons">
+              {/**<ul id="buttons04" className="style1 buttons">
                 <li>
                   <a href="#three" className="button n01">
                     <svg>
@@ -52,7 +52,7 @@ const Main = () => (
                     <span className="label">Next</span>
                   </a>
                 </li>
-              </ul>
+              </ul>**/}
             </div>
             <span />
           </div>
@@ -64,7 +64,7 @@ const Main = () => (
               <h2 id="text07" className="style1">Lorem Ipsum</h2>
               <hr id="divider01" />
               <p id="text10" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
-              <ul id="buttons05" className="style1 buttons">
+              {/**<ul id="buttons05" className="style1 buttons">
                 <li>
                   <a href="#signup" className="button n01">
                     <svg>
@@ -73,14 +73,14 @@ const Main = () => (
                     <span className="label">Next</span>
                   </a>
                 </li>
-              </ul>
+              </ul>**/}
             </div>
           </div>
         </div>
         <div id="container06" data-scroll-id="signup" data-scroll-behavior="center" className="container columns full screen">
           <div className="inner">
             <div>
-              <h2 id="text11" className="style1">Get Notified</h2>
+              <h2 id="text11" className="style1">Contact</h2>
               <hr id="divider05" />
               <p id="text13" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
             </div>
