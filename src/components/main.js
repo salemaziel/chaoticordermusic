@@ -22,7 +22,7 @@ const Main = () => (
             <div className="after-spacer">
                 
               <h2 id="text01" className="style1">Sed Aliquam</h2>
-              <hr id="divider03" />
+              {/*<hr id="divider03" />*/}
               <p id="text02" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
               {/**<ul id="buttons03" className="style1 buttons">
                 <li>
@@ -41,7 +41,7 @@ const Main = () => (
           <div className="inner">
             <div className="before-spacer">
               <h2 id="text05" className="style1">Magna Feugiat</h2>
-              <hr id="divider02" />
+             {/*} <hr id="divider02" />*/}
               <p id="text06" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
               {/**<ul id="buttons04" className="style1 buttons">
                 <li>
@@ -62,7 +62,7 @@ const Main = () => (
             <span />
             <div className="after-spacer">
               <h2 id="text07" className="style1">Lorem Ipsum</h2>
-              <hr id="divider01" />
+             {/** <hr id="divider01" />**/}
               <p id="text10" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
               {/**<ul id="buttons05" className="style1 buttons">
                 <li>
@@ -81,7 +81,7 @@ const Main = () => (
           <div className="inner">
             <div>
               <h2 id="text11" className="style1">Contact</h2>
-              <hr id="divider05" />
+             {/** <hr id="divider05" />**/}
               <p id="text13" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
             </div>
             <div>
@@ -99,7 +99,7 @@ const Main = () => (
                     <input type="text" name="sms" id="form02-sms" placeholder="Sms" maxLength={128} />
                   </div>
                   <div className="actions">
-                    <button type="submit">Subscribe</button>
+                    <button type="submit">Submit</button>
                   </div>
                 </div>
                 <input type="hidden" name="id" defaultValue="form02" />
@@ -143,7 +143,7 @@ const Main = () => (
                 </a>
               </li>
             </ul>
-            <p id="text12" className="style5">© Chaotic Order Music. All rights reserved.</p>
+           
           </div>
         </div>
       </section>
@@ -151,12 +151,12 @@ const Main = () => (
       <section id="done-section">
         <div id="container02" className="container default full screen">
           <div className="inner">
-            <h2 id="text09" className="style1">Thank you</h2>
-            <hr id="divider04" />
+            <h2 id="text09" className="style1">For More Info</h2>
+            {/**<hr id="divider04" />**/}
             <p id="text08" className="style2">Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
             <ul id="buttons01" className="style1 buttons">
               <li>
-                <a href="#home" className="button n01">
+                <a href="#" className="button n01">
                   <svg>
                     <use xlinkHref="#icon-a3b" />
                   </svg>
@@ -164,6 +164,7 @@ const Main = () => (
                 </a>
               </li>
             </ul>
+            <p id="text12" className="style5">© Chaotic Order Music. All rights reserved.</p>
           </div>
         </div>
       </section>
