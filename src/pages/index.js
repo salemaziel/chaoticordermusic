@@ -3,9 +3,9 @@ import Main from '../components/main'
 
 
 const Test = () => (
-    <>
-    <Main />
-    </>
+    <div>
+        <Main />
+    </div>
 
 
 

@@ -570,7 +570,6 @@ hr:before {
     border-bottom-right-radius: inherit;
 }
 
-/** container 08 **/
 #containerHeader > .inner {
     text-align: left;
     padding: 6rem 6rem;
@@ -732,10 +731,6 @@ hr:before {
     height: 100%;
     border-radius: inherit;
 }
-
-/** end containerHeader section **/
-
-/** container01 **/
 
 #container01 > .inner {
     padding: 6rem 6rem;
@@ -913,8 +908,7 @@ hr:before {
     width: 100%;
     max-width: 65rem;
 }
-/** end container01 section **/
-/** container02 **/
+
 #container02 {
     display: flex;
     width: 100%;
@@ -1079,9 +1073,7 @@ hr:before {
 #container02 > .inner > :nth-child(2) {
     width: 50%;
 }
-/** end container02 section **/
 
-/** container03 **/
 #container03 > .inner {
     padding: 6rem 6rem;
     width: 100%;
@@ -1252,9 +1244,7 @@ hr:before {
 #container03 > .inner > :nth-child(2) {
     width: 50%;
 }
-/** end container03 section **/
 
-/** container04 **/
 #container04 > .inner {
     padding: 6rem 6rem;
     width: 100%;
@@ -1423,9 +1413,6 @@ hr:before {
 #container04 > .inner > :nth-child(2) {
     width: calc(50% + 3rem);
 }
-/** end container04 section **/
-
-/** container05 **/
 
 #container05 > .inner {
     padding: 3rem 6rem;
@@ -1581,9 +1568,7 @@ hr:before {
     height: 100%;
     border-radius: inherit;
 }
-/** end container05 section **/
 
-/** containerInfo **/
 #containerInfo > .inner {
     padding: 6rem 6rem;
     width: 100%;
@@ -1738,9 +1723,7 @@ hr:before {
     height: 100%;
     border-radius: inherit;
 }
-/** end containerInfo section **/
 
-/** form **/
 form .inner {
     display: inline-flex;
     max-width: 100%;
@@ -2192,7 +2175,6 @@ form button:disabled {
     color: rgba(255,255,255,0.78);
     opacity: 0.55;
 }
-/** end form section **/
 
 .icons {
     cursor: default;
@@ -2491,7 +2473,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #containerHeader.columns > .inner > div.after-spacer {
+    #containerHeader.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -2626,7 +2608,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #container01.columns > .inner > div.after-spacer {
+    #container01.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -2773,7 +2755,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #container02.columns > .inner > div.after-spacer {
+    #container02.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -2920,7 +2902,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #container03.columns > .inner > div.after-spacer {
+    #container03.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -3063,7 +3045,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #container04.columns > .inner > div.after-spacer {
+    #container04.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -3202,7 +3184,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #container05.columns > .inner > div.after-spacer {
+    #container05.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
@@ -3329,7 +3311,7 @@ form button:disabled {
         padding-bottom: 0 !important;
     }
 
-    #containerInfo.columns > .inner > div.after-spacer {
+    #containerInfo.columns > .inner > div.afterSpacer {
         padding-top: 0 !important;
     }
 
