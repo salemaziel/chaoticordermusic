@@ -15,7 +15,7 @@ import '../css/cardstyles.css';
 
 
 
-class TContentCards extends React.Component {
+class TContentCards01 extends React.Component {
     render() {
         let {
           className,
@@ -93,4 +93,4 @@ class TContentCards extends React.Component {
    );
 }
 }
-      export default TContentCards
+      export default TContentCards01
