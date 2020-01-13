@@ -1,5 +1,5 @@
 import React from 'react'
-import { TaggedContentCard } from 'react-ui-cards'
+//import { TaggedContentCard } from 'react-ui-cards'
 import cardStyles from '../css/cardstyles.module.css';
 import Sorry from '../images/song-art/closeyoureyestosee-SORRY.jpg'
 import Chains from '../images/song-art/medicineman-CHAINS.jpg'
@@ -11,14 +11,10 @@ import Earth from '../images/song-art/HighPriestess-EARTH.jpg'
 
 
 
-import '../css/cardstyles.css';
-
-
 
 class TContentCards02 extends React.Component {
     render() {
         let {
-          className,
           href,
           thumbnail,
           title,
@@ -27,70 +23,65 @@ class TContentCards02 extends React.Component {
           ...other
         } = this.props;
         return (
-        <div className="tagged-content-card">
+        <div className={cardStyles.taggedcontentcard}>
             
-            <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
+           {/**<TaggedContentCard
                 href=''
                 thumbnail={Sorry}
                 title='Sorry'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
                 />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Chains}
                 title='Chains'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                     ]}
                 />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Angel}
                 title='Angel'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
             />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Never}
                 title='Never End'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
             />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Earth}
                 title='Earth'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
-            />
+            />**/}
       </div>
    );
 }
 }
-      export default TContentCards02
+export default TContentCards02

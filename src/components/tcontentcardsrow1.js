@@ -1,5 +1,5 @@
 import React from 'react'
-import { TaggedContentCard } from 'react-ui-cards'
+//import { TaggedContentCard } from 'react-ui-cards'
 import cardStyles from '../css/cardstyles.module.css';
 import Chemtrails from '../images/song-art/Chemtrails.jpg'
 import Burn from '../images/song-art/The-Tower-BURN.jpg'
@@ -11,14 +11,12 @@ import Hate from '../images/song-art/the-oracle-HATE.jpg'
 
 
 
-import '../css/cardstyles.css';
 
 
 
 class TContentCards01 extends React.Component {
     render() {
         let {
-          className,
           href,
           thumbnail,
           title,
@@ -27,70 +25,65 @@ class TContentCards01 extends React.Component {
           ...other
         } = this.props;
         return (
-        <div className="tagged-content-card">
+        <div className={cardStyles.taggedcontentcard}>
             
-            <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
+            {/**<TaggedContentCard
                 href=''
-                thumbnail={Chemtrails}
+                thumbnail={'Chemtrails'}
                 title='ChemTrails'
-                description=''
+                description=''description
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
                 />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Feedthepeople}
                 title='Feed The People'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                     ]}
                 />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Burn}
                 title='Burn'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
             />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Another}
                 title='Another Thing'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
             />
             <TaggedContentCard
-                className={cardStyles.taggedcontentcard}
                 href=''
                 thumbnail={Hate}
                 title='Hate'
-                description=''
+                description='description'
                 tags={[
-                    '',
-                    '',
-                    ''
+                    'song',
+                    'new',
+                    'tag'
                 ]}
-            />
+            />**/}
       </div>
    );
 }
 }
-      export default TContentCards01
+export default TContentCards01

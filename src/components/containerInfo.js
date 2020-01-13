@@ -1,8 +1,8 @@
 import React from 'react'
 import containercontactStyles from '../css/containerInfo.module.css'
-import { TaggedContentCard } from 'react-ui-cards'
+//import { TaggedContentCard } from 'react-ui-cards'
 import Albumcover from '../images/album-cover.jpg'
-import TContentCards from './tcontentcardsrow1'
+//import TContentCards from './tcontentcardsrow1'
 import ResponsivePlayer from './responsiveplayer01'
 
 
